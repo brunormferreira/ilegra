@@ -1,0 +1,9 @@
+parte 2:
+
+criar um repositório no github
+clonar o repositório
+alterar algum arquivo
+listar os repositórios remotos
+commitar alterações para o repositório remoto
+
+-> feito com sucesso.

@@ -1,0 +1,41 @@
+Atividade 2 
+
+parte 1: 
+
+iniciar um repositório novo local
+criar arquivo file1.txt
+comitar no repositório
+criar um novo branch chamado fix-bug
+listar os branches
+mudar para o branch fix-bug
+criar dois arquivos no novo branch : file2.txt e file3.txt
+Comitar no repositório
+mudar para o branch master
+comparar o branch master com o branch fix-bug
+fazer merge do conteúdo do branch master(atual) com o branch fix-bug
+Deletar branch fix-bug
+
+-> feito com sucesso.
+
+parte 2:
+
+criar um repositório no github
+clonar o repositório
+alterar algum arquivo
+listar os repositórios remotos
+commitar alterações para o repositório remoto
+
+-> feito com sucesso.
+
+parte 3:
+
+fazer fork de um repositório (fazer em dupla, um clona um repositorio do outro)
+clonar o seu repositório 
+alterar algum arquivo
+adicionar repositório upstream no projeto
+sincronizar com o repositório upstream
+enviar alterações para o seu repositório remoto
+fazer um PR
+
+
+

@@ -1,0 +1,29 @@
+1. Make a list with all agile methods exlusing XP and Scrum and explain with 2-3 text lines how they work.
+2. Make a text with 3-5 lines explaining the issues with "Agile" - explain why.
+3. Whats the relation of Agile / Lean and Bi-Modal and DevOps?
+
+Answers
+
+1.
+
+-Agile: Surgiu para tentar mudar o modo cascata, foco nos indivíduos e na interação com o cliente do que foco nas ferramentas, mudança de requerimentos acessível, todos trabalhando juntos, sendo motivados e se ajudando um ao outro, conversação face-to-face com o cliente.
+
+- XP: Conhecida através de sua eficiência e rapidez, versátil com a mudança solicitada pelo usuário a qualquer momento, necessitando profissionais ágeis para determinadas tarefas, com simplicidade e incremento de mudança, qualidade, do modo de planejamento, projeto, compilação e testes.
+
+-Lean: Eliminação de serviços, baseados em princípios e visão, acredita no aprendizado visando  o TODO, alcançando melhorias e melhores resultados, aumento na velocidade de processos, com excelência na qualidade de trabalho.
+
+-Scrum: Desenvolvido em ciclos iterativos e incrementais, ao final de cada ciclo são entregues incrementos do produto, reuniões ao final de cada ciclo com nome de Sprints, utilizando do método cascata, método mais antigo, ultimamente.
+
+-DevOps: Apresenta uma metodologia revolucionária, que sugere integrar as áreas de desenvolvimento de sistemas com a área de operação de insfraestrutura de TI, trabalhando ciclo-a-ciclo.
+
+
+2. As equipes adotam o Agile pois encontram problemas reais como baixa produtividade ou qualidade e esperam que o Agile possa, milagrosamente, resolver esses problemas. Porém, o Agile é uma abordagem sistemática de gerenciamento do desenvolvimento de software.
+O problema é que com o Agile vem muito trabalho: reuniões diárias, reuniões de planeamento e reuniões de retrospectiva. Requer esforço do individuo que optou por esta metodologia.
+
+3. O Lean e o Agile se complementam. Só com o Agile, é muito comum encontrar times de desenvolvimento que recebem escopos fechados, mas trabalham no seu dia a dia de forma ágil, normalmente com times de Scrum. O Lean leva esses ciclos curtos de entrega para as fases anteriores do desenvolvimento também, e reforça um dos objetivos comuns de todas as áreas envolvidas no processo, agregando valor ao cliente. 
+
+A metodologia Bi-Modal podemos dizer que é a nova TI suportada pela metodologia DevOps, pois a metodologia DevOps surgiu com base nos princípios da Bi-Modal, que afeta a empresa como um todo e tem interesse constante na alta administração, dando origem ao DevOps. Refletindo na forma que são feito os negócios, a relação entre eles é que estão focados na estabilidade e estruturado, portanto "cautelosos"e em todas as etapas, no sentido de diminuir a probabilidade de problemas.
+
+
+
+
