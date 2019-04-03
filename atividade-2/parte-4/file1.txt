@@ -1,5 +1,6 @@
 Tema 4 [Esse é o entregavel para mim]
- fazer fork do repositorio  https://github.com/ilegra/jts.core-engineering.2019.1
+
+fazer fork do repositorio  https://github.com/ilegra/jts.core-engineering.2019.1
 clonar seu repositório
 criar uma pasta com seu nome + sobrenome no padrão (letras minúsculas, palavras separadas por "-" )
 Criar um arquivo chamado README.md e adicionar seu nome completo nele

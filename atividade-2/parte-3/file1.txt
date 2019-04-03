@@ -8,3 +8,4 @@ sincronizar com o repositório upstream
 enviar alterações para o seu repositório remoto
 fazer um PR
 
+-> concluido com sucesso.
