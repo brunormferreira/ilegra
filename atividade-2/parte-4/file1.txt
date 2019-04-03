@@ -8,3 +8,5 @@ adicionar repositório upstream no projeto
 sincronizar com o repositório upstream
 enviar alterações para o seu repositório remoto
 fazer um PR (me adicionar como reviewer & descrever o que está sendo feito no PR)
+
+-> concluido com sucesso.

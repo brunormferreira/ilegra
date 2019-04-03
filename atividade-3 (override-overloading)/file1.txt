@@ -1,0 +1,26 @@
+Override(ing):
+
+é sobrescrever, ou seja, definir um novo comportamento para um método que já existe. Isso acontece quando a classe em questão herda (estende - extends) outra classe qualquer e cria-se um método com a mesma assinatura da classe "pai" na classe filha.
+
+a técnica de sobreposição permite reescrever um método em uma subclasse que possua um comportamento diferente do método de mesma assinatura na superclasse. Basicamente a sobreposição (override) possibilita reescrever na classe filha os métodos implementados previamente na classe pai, ou seja, uma classe filha pode redefinir métodos herdados de suas descendentes, mantendo o nome e a assinatura. Na sobreposição é necessário que os métodos tenham a mesma assinatura (tipo de retorno, nome do método, tipos e quantidades de parâmetros), mas com implementações diferentes.
+
+- same method name, same parameter.
+
+Overload(ing):
+
+A sobrecarga (overload) consiste em permitir, dentro da mesma classe, mais de um método com o mesmo nome. Entretanto, eles necessariamente devem possuir argumentos diferentes para funcionar.
+
+é o ato de criar vários métodos diferentes com o mesmo o nome, porém com assinaturas diferentes, cada um com sua própria implementação. Especificamente no Java, também é muito usado como uma forma de resolver o "problema" da falta de parâmetros default.
+Como por exemplo (bem trivial, diga-se de passagem) um método enviarEmail com a implementação da rotina e outro método apenas para suprir a falta de parâmetros com valores default.
+
+- same method name, differente parameter.
+
+
+Overload = escrever vários métodos com o mesmo nome mas com parâmetros diferentes.
+Override = escrever o mesmo método, com os mesmos parâmetros. Ou seja, é uma anulação de um método herdado, para fazer o seu especifico. Aqui entra polimorfismo!
+
+
+Override é definir um novo comportamento para um método que já existe através da herança de uma classe. Overload cria vários métodos diferentes com mesmo nome porém com assinaturas e implementação diferentes.
+
+Override é sobrescrever o método da classe pai utilizando o mesmo nome de método e parâmetros na classe filho  mas alterando a forma de execução.
+Overloading são métodos com o mesmo nome porém com assinaturas diferentes
