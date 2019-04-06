@@ -1,5 +1,4 @@
-# Ignore Gradle project-specific cache directory
-
+# Ignore Gradle directories and files
 gradle/
 .gradle/
 setting.gradle
