@@ -8,10 +8,10 @@ public class Main {
 		   interruptor.trocar();
 		   
 		   
-           Lampada lampadaAlmoÃ§o = new LampadaAlmoÃ§o();
-		   interruptor = new Interruptor(lampadaAlmoÃ§o);
-		   System.out.println("Interruptor trocou para a lampada da sala de almoÃ§o.");
-		   System.out.println("Lampada da sala de almoÃ§o desligada.");
+           Lampada lampadaAlmoço = new LampadaAlmoço();
+		   interruptor = new Interruptor(lampadaAlmoço);
+		   System.out.println("Interruptor trocou para a lampada da sala de almoço.");
+		   System.out.println("Lampada da sala de almoço desligada.");
 		   interruptor.trocar();
 		
 	}

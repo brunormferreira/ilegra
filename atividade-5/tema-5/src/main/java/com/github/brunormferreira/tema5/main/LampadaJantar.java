@@ -4,13 +4,13 @@ public class LampadaJantar implements Lampada {
 
 	@Override
 	public void liga() {
-		System.out.println("A lampada da sala de jantar estÃ¡ ligada.");
+		System.out.println("A lampada da sala de jantar está ligada.");
 		
 	}
 
 	@Override
 	public void desliga() {
-		System.out.println("A lampada da sala de jantar estÃ¡ desligada.");
+		System.out.println("A lampada da sala de jantar está desligada.");
 	
 	}	
 	
