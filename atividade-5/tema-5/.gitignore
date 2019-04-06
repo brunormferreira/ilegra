@@ -1,0 +1,13 @@
+# Ignore Gradle directories and files
+gradle/
+.gradle/
+setting.gradle
+build.gradle/
+
+
+
+# Ignore Eclipse files
+bin/
+.classpath
+.project
+.settings/
