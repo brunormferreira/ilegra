@@ -13,16 +13,13 @@ public class Agenda {
 		this.gerarId = new GerarId();
 	}
 	
-	// adicionando contatos
 	public boolean addContact(String name) {
 		int id = gerarId.gerar();
 		Contato contato = new Contato(id, name);
 		contatos.add(contato);
 		return true;
-		
 	}
 	
-	// removendo contatos pelo Id
 	public boolean removeContact(int id) {
 		Contato contactToRemove = searchId(id);
 		if (contactToRemove == null) {
@@ -32,12 +29,10 @@ public class Agenda {
 		return true;
 	}
 
-	// listando contatos
 	public List<Contato> listContacts() {
 		return this.contatos;
 	}
 	
-	// procurando contatos pelo nome
 	public List<Contato> searchName(String name) {
 		List<Contato> contactsFound = new ArrayList<>();
 		for(Contato contato: contatos) {
@@ -49,7 +44,6 @@ public class Agenda {
 		return contactsFound;
 	}
 	
-	// procurando contatos pelo id
 	public Contato searchId(int id) {
 		for (Contato contato: contatos) {
 			if (contato.getId() == id) {

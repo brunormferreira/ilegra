@@ -63,8 +63,8 @@ public class Main {
 	private static void removeContacts() {
 		System.out.println("Enter the Id of the contact to be removed:");
 		try {
-			int idContato = dataEntry.nextInt();
-			boolean removed = agenda.removeContact(idContato);
+			int idContact = dataEntry.nextInt();
+			boolean removed = agenda.removeContact(idContact);
 			if (removed) {
 				    System.out.println("The contact has been removed.");
 			} else {
