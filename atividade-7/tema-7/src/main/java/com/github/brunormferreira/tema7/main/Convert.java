@@ -5,8 +5,8 @@ public class Convert {
 	
 		public String convertArabicToRoman(int arabic) {
 			
-		    	if (arabic < 1 || arabic > 20)
-			    return "Invalid valor!\n";
+		    if (arabic < 1 || arabic > 20)
+			return "Invalid valor!\n";
 			
 			String roman = "";
 			while (arabic >= 10) {

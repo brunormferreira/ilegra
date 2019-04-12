@@ -16,8 +16,8 @@ public class TestConvert {
 	@Test
 	public void testConvertRomanToArabic() {
 		Convert convertRoman = new Convert();
-		int resultConvertRoman = convertRoman.convertRomanToArabic("X");
-		assertEquals(10, resultConvertRoman);		
+		int resultConvertRoman = convertRoman.convertRomanToArabic("IX");
+		assertEquals(9, resultConvertRoman);		
 	}
 	
 }
