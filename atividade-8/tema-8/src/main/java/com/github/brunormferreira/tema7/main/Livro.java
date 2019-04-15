@@ -77,6 +77,5 @@ public class Livro {
 	public int getLIMITE_DIAS() {
 		return LIMITE_DIAS;
 	}
-	
 }
 	

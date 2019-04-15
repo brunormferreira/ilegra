@@ -54,8 +54,55 @@ public class ControleDAO {
 		Gson gson = new Gson();
 		BufferedReader readerJson;
 		
+		try {
+			FileReader fileJson = new FileReader(fileName);
+			List<Livro> listaLivrosJson = new ArrayList<Livro>();
+			
+			readerJson = new BufferedReader(fileJson);
+			String linha = readerJson.readLine();
+			
+			while(linha != null) {
+				Livro livro = gson.fromJson(linha, Livro.class);
+				listaLivrosJson.add(livro);
+				linha = readerJson.readLine();
+				
+			}
+			return listaLivrosJson;	
+		} catch (FileNotFoundException e) {
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;		
 		
-		return null;	
+	}
+	
+    public List<Usuario> lerUsuarios(String fileName) {
+		
+		Gson gson = new Gson();
+		BufferedReader readerJson;
+		
+		try {
+			FileReader fileJson = new FileReader(fileName);
+			List<Usuario> listaUsuariosJson = new ArrayList<Usuario>();
+			
+			readerJson = new BufferedReader(fileJson);
+			String linha = readerJson.readLine();
+			
+			while(linha != null) {
+				Usuario usuario = gson.fromJson(linha, Usuario.class);
+				listaUsuariosJson.add(usuario);
+				linha = readerJson.readLine();
+				
+			}
+			return listaUsuariosJson;	
+		} catch (FileNotFoundException e) {
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;		
+		
 	}
 }
 
