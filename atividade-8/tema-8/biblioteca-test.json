@@ -1,0 +1,3 @@
+{"id":1,"titulo":"Domain Driven Design","autor":"Eric Evans","locado":false,"usuarioLivro":0,"diaLocacao":0}
+{"id":2,"titulo":"Design Patterns","autor":"Erich Gamma","locado":false,"usuarioLivro":0,"diaLocacao":0}
+{"id":3,"titulo":"Clean Code","autor":"Brian Goetz","locado":false,"usuarioLivro":0,"diaLocacao":0}

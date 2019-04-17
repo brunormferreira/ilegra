@@ -1,0 +1,13 @@
+{"MAX_LIVROS":5,"nome":"Moraes","atrasado":false,"id":3,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Carlos","atrasado":false,"id":6,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Fabi","atrasado":false,"id":9,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Joao","atrasado":false,"id":10,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Leonardo","atrasado":false,"id":11,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Ronaldo","atrasado":false,"id":12,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Bruno","atrasado":false,"id":1,"totalLivrosEmprestados":1,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[{"id":1,"titulo":"Domain Driven Design","autor":"Eric Evans","locado":true,"usuarioLivro":1,"diaLocacao":107}]}
+{"MAX_LIVROS":5,"nome":"Helen","atrasado":false,"id":8,"totalLivrosEmprestados":1,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Helen","atrasado":false,"id":8,"totalLivrosEmprestados":1,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Igor","atrasado":false,"id":5,"totalLivrosEmprestados":5,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[{"id":4,"titulo":"Guerra e Paz","autor":"Liev Tolstoi","locado":true,"usuarioLivro":5,"diaLocacao":107},{"id":5,"titulo":"Logica","autor":"Mark Golz","locado":true,"usuarioLivro":5,"diaLocacao":107},{"id":6,"titulo":"Blade","autor":"Lucas Baldin","locado":true,"usuarioLivro":5,"diaLocacao":107},{"id":7,"titulo":"Senhor dos Aneis 1","autor":"Tolkien","locado":true,"usuarioLivro":5,"diaLocacao":107},{"id":8,"titulo":"Senhor dos Aneis 2","autor":"Tolkien","locado":true,"usuarioLivro":5,"diaLocacao":107}]}
+{"MAX_LIVROS":5,"nome":"Ramires","atrasado":false,"id":2,"totalLivrosEmprestados":1,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Helena","atrasado":true,"id":7,"totalLivrosEmprestados":1,"multa":15.0,"numDiasAtraso":3,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Ferreira","atrasado":false,"id":4,"totalLivrosEmprestados":1,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}

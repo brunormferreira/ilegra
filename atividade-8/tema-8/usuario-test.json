@@ -1,0 +1,4 @@
+{"MAX_LIVROS":5,"nome":"Bruno","atrasado":false,"id":1,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Ramires","atrasado":false,"id":2,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Moraes","atrasado":false,"id":3,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Igor","atrasado":false,"id":4,"totalLivrosEmprestados":0,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}

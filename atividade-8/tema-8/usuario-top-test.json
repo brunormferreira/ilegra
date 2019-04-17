@@ -1,0 +1,12 @@
+{"MAX_LIVROS":5,"nome":"Bruno","atrasado":false,"id":1,"totalLivrosEmprestados":9,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Ramires","atrasado":false,"id":2,"totalLivrosEmprestados":15,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Moraes","atrasado":false,"id":3,"totalLivrosEmprestados":20,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Ferreira","atrasado":false,"id":4,"totalLivrosEmprestados":6,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Marcelly","atrasado":false,"id":5,"totalLivrosEmprestados":3,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Igor","atrasado":false,"id":6,"totalLivrosEmprestados":25,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Helena","atrasado":false,"id":7,"totalLivrosEmprestados":12,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Helen","atrasado":false,"id":8,"totalLivrosEmprestados":9,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Fabi","atrasado":false,"id":9,"totalLivrosEmprestados":10,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Carlos","atrasado":false,"id":10,"totalLivrosEmprestados":7,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Joao","atrasado":false,"id":11,"totalLivrosEmprestados":4,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}
+{"MAX_LIVROS":5,"nome":"Lucas","atrasado":false,"id":12,"totalLivrosEmprestados":13,"multa":0.0,"numDiasAtraso":0,"livrosEmprestados":[]}

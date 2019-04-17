@@ -1,0 +1,12 @@
+{"id":9,"titulo":"Senhor dos Aneis 3","autor":"Tolkien","locado":false,"usuarioLivro":0,"diaLocacao":0}
+{"id":10,"titulo":"Linguagem Contemporanea","autor":"Carlos Moraes","locado":false,"usuarioLivro":0,"diaLocacao":0}
+{"id":1,"titulo":"Domain Driven Design","autor":"Eric Evans","locado":true,"usuarioLivro":1,"diaLocacao":107}
+{"id":12,"titulo":"Terror in Downtown","autor":"Osmar Yurt","locado":false,"usuarioLivro":0,"diaLocacao":0}
+{"id":4,"titulo":"Guerra e Paz","autor":"Liev Tolstoi","locado":true,"usuarioLivro":5,"diaLocacao":107}
+{"id":5,"titulo":"Logica","autor":"Mark Golz","locado":true,"usuarioLivro":5,"diaLocacao":107}
+{"id":6,"titulo":"Blade","autor":"Lucas Baldin","locado":true,"usuarioLivro":5,"diaLocacao":107}
+{"id":7,"titulo":"Senhor dos Aneis 1","autor":"Tolkien","locado":true,"usuarioLivro":5,"diaLocacao":107}
+{"id":8,"titulo":"Senhor dos Aneis 2","autor":"Tolkien","locado":true,"usuarioLivro":5,"diaLocacao":107}
+{"id":2,"titulo":"Design Patterns","autor":"Erich Gamma","locado":false,"usuarioLivro":0,"diaLocacao":0}
+{"id":11,"titulo":"Logica de Programacao","autor":"Ronaldo Grach","locado":false,"usuarioLivro":0,"diaLocacao":0}
+{"id":3,"titulo":"Clean Code","autor":"Brian Goetz","locado":false,"usuarioLivro":0,"diaLocacao":0}
