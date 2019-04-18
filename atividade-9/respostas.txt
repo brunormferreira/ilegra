@@ -1,0 +1,6 @@
+Qual o objetivo principal do DDD?
+O objetivo principal é orientar o seu projeto para o negócio, ou seja, seu código tem que falar exatamente como o negócio está aplicado na sua empresa.
+Mantendo sob controle a complexidade inerente aos softwares que atendem necessidades complexas e com muitas regras de negócio. Sendo localizada no domínio da aplicação.
+
+Qual é o impacto que DDD pode causar no projeto?
+O impacto que o DDD causa no projeto seria melhorar a comunicação entre os especialistas envolvidos no projeto, utilizando de maneira clara, chamada Linguaguem Ubíqua (que envolve decisões arquiteturais de design que ajudem a entender o domínio pelo código), na qual fique legível para todos desenvolvedores conseguirem entender seu modelo de negócio e projeto, aumentando a conformidade entre as regras de negócio.

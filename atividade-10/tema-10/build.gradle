@@ -1,0 +1,17 @@
+plugins {
+
+    id 'java-library'
+}
+
+repositories {
+
+    jcenter()
+}
+
+dependencies {
+
+    implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
+    
+    testImplementation 'junit:junit:4.12'
+     
+}
