@@ -1,17 +1,12 @@
 plugins {
-
     id 'java-library'
 }
 
 repositories {
-
     jcenter()
 }
 
 dependencies {
-
-    implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
-    
-    testImplementation 'junit:junit:4.12'
-     
+    compile group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.4.1' 
+    testImplementation 'junit:junit:4.12'     
 }

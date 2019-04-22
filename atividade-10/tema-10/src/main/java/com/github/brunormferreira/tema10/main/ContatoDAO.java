@@ -11,9 +11,9 @@ public class ContatoDAO {
 	
 	public boolean adicionarContato(Contato contato) {
 		try (Connection conn = ConexaoDatabase.openConexao();
-			PreparedStatement stmt = conn.prepareStatement("INSERT INTO contatos (nome, telefone, email) VALUES (?, ?, ?)")) {
+			PreparedStatement stmt = conn.prepareStatement("INSERT INTO contato (nome, telefone, email) VALUES (?, ?, ?)")) {
 			stmt.setString(1, contato.getNome());
-			stmt.setLong(2, contato.getTelefone());
+			stmt.setString(2, contato.getTelefone());
 			stmt.setString(3, contato.getEmail());
 			stmt.executeUpdate();
 			System.out.println("Contato adicionado!");
@@ -81,7 +81,7 @@ public class ContatoDAO {
 	
 	public boolean removerContato(int id) {	
 		try (Connection conn = ConexaoDatabase.openConexao();
-			PreparedStatement stmt = conn.prepareStatement("DELETE FROM contato where id = ?")) {
+			PreparedStatement stmt = conn.prepareStatement("DELETE FROM contato WHERE id = ?")) {
 			stmt.setInt(1, id);
 			stmt.execute();
 			System.out.println("Contato removido!");
@@ -92,15 +92,14 @@ public class ContatoDAO {
 		return true;
 	}	
 	   
-	/*public List<Contato> ordenarContato(String tipo) {
+	public List<Contato> ordenarContato(String tipo) {
 		List<Contato> contatos = new ArrayList<Contato>();
 		try (Connection connection = ConexaoDatabase.openConexao()) {
-			String sql = "SELECT * FROM contato order by" + tipo + ";";
+			String sql = "SELECT * FROM contato ORDER BY" + tipo + ";";
 			PreparedStatement pstm = connection.prepareStatement(sql);
 			ResultSet resultSet = pstm.executeQuery();
 			while (resultSet.next()) {
-				contatos.add(new Contato(resultSet.getString("nome"), resultSet.getString("email"),
-						resultSet.getInt("telefone")));
+				contatos.add(new Contato(resultSet.getString("nome"), resultSet.getString("telefone"), resultSet.getString("email")));
 			}
 			resultSet.close();
 			pstm.close();
@@ -109,7 +108,7 @@ public class ContatoDAO {
 			e.printStackTrace();
 		}
 		return contatos;
-	} */
+	}
 	
 }
 	
