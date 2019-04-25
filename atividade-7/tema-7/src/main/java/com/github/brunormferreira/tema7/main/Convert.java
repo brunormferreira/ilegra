@@ -1,76 +1,84 @@
 package com.github.brunormferreira.tema7.main;
 
 public class Convert {
-	
-	
-		public String convertArabicToRoman(int arabic) {
-			
-		    if (arabic < 1 || arabic > 20)
-			return "Invalid valor!\n";
-			
-			String roman = "";
-			while (arabic >= 10) {
+
+	public String convertArabicToRoman(int arabic) throws InvalidValorException {
+		if(checkRange(arabic)){
+			throw new InvalidValorException("Your value is out of range, please insert other number!\n");
+		} 
+
+		String roman = "";
+		
+		int number = arabic;
+		while(number <= 20) {
+			if (number >= 10) {
 				roman += "X";
-				arabic -= 10;
+				number -= 10;
 			}	
-			while (arabic >= 9) {
-				roman += "IV";
-				arabic -= 9;
+
+			if(number >= 9) {
+				roman += "IX";
+				number -= 9;
 			}
-				
-			while (arabic >= 5) {
+
+			if (number >= 5) {
 				roman += "V";
-				arabic -= 9;
+				number -= 5;
 			}
-			
-			while (arabic >= 4) {
+
+			if (number >= 4) {
 				roman += "IV";
-				arabic -= 4;
+				number -= 10;
 			}
-				
-			while (arabic >= 1) {
-				roman += "IV";
-				arabic -= 1;
+
+			if (number >= 1) {
+				roman += "I";
+				number -= 1;
 			}
-			return roman;
-		}	
-		
-		public int convertRomanToArabic(String roman) {
 			
-			int arabic = 0;
-			int indexSub = 0;
-			
-			try {
-				while (roman.charAt(indexSub) == 'X') {
-					indexSub++;
-					arabic += 10;
-				}
-				
-				while (roman.substring(indexSub, indexSub+2).equals("IX")) {
-					indexSub += 2;
-				    arabic += 9;
-				}
-				
-				while (roman.charAt(indexSub) == 'V') {
-					System.out.println("testando");
-					indexSub++;
-					arabic += 5;
-				}
-				
-				while (roman.substring(indexSub, indexSub+2).equals("IV")) {
-					indexSub += 2;
-					arabic += 4;
-					
-				}
-				
-				while (roman.charAt(indexSub) == 'I') {
-					indexSub++;
-					arabic += 1;
-				}	
-			} catch (IndexOutOfBoundsException e) {
-			
-		}
-		return arabic;			
+		}return roman;
 	}
-		
+
+	public int convertRomanToArabic(String roman) {
+
+		int arabic = 0;
+		int indexSub = 0;
+
+		try {
+			while (roman.charAt(indexSub) == 'X') {
+				indexSub++;
+				arabic += 10;
+			}
+
+			while (roman.substring(indexSub, indexSub+2).equals("IX")) {
+				indexSub += 2;
+				arabic += 9;
+			}
+
+			while (roman.charAt(indexSub) == 'V') {
+				indexSub++;
+				arabic += 5;
+			}
+
+			while (roman.substring(indexSub, indexSub+2).equals("IV")) {
+				indexSub += 2;
+				arabic += 4;
+
+			}
+
+			while (roman.charAt(indexSub) == 'I') {
+				indexSub++;
+				arabic += 1;
+			}	
+		} catch (IndexOutOfBoundsException e) {
+			e.printStackTrace();
+			System.out.println("Invalid indexes or empty string");
+		}
+		return arabic;
+	}
+
+	private boolean checkRange(int numero) {
+		return numero < 1 || numero > 20;
+	}
+
 }
