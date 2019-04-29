@@ -16,13 +16,13 @@ public class NotificacaoStrategyTest {
 	@Test
 	public void enviarMensagemEmail() {
 		controleNotificacao = new ControleNotificacao(new NotificacaoEmail());
-		assertEquals("Olá Bruno seu email e: ", controleNotificacao.enviarMensagem(clienteSemTelefone));
+		assertEquals("Ola Bruno atraves do e-mail.", controleNotificacao.enviarMensagem(clienteSemTelefone));
 	}
 	
 	@Test
 	public void enviarMensagemTelefone() {
 		controleNotificacao = new ControleNotificacao(new NotificacaoSms());
-		assertEquals("Olá Igor seu email e: ", controleNotificacao.enviarMensagem(clienteComTelefone));
+		assertEquals("Ola Igor atraves de sms.", controleNotificacao.enviarMensagem(clienteComTelefone));
 	}
 
 }
