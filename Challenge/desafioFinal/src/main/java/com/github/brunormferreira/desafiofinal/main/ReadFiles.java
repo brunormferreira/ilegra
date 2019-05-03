@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-
 public class ReadFiles {
 	
 	private static final String path = "/home/ilegra0111/Documentos/Bruno/BrunoDesafio/In/Test.txt";
