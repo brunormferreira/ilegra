@@ -37,4 +37,9 @@ public class Customer {
 	public void setCNPJ(String Cnpj) {
 		CNPJ = Cnpj;
 	}
+	@Override
+	public String toString() {
+		return "\nId: "+this.id+"\nCPF: "+this.CNPJ+"\nName: "+this.name+"\nBusiness: "+this.business+"\nArea: "+this.area;
+	} 
+	
 }

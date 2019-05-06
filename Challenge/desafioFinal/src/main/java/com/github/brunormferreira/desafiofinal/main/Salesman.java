@@ -4,7 +4,7 @@ public class Salesman {
 	private int id = 001;
 	private String CPF;
 	private String name;
-	private String salary;
+	private float salary;
 	
 	public int getId() {
 		return id;
@@ -18,10 +18,10 @@ public class Salesman {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getSalary() {
+	public float getSalary() {
 		return salary;
 	}
-	public void setSalary(String salary) {
+	public void setSalary(float salary) {
 		this.salary = salary;
 	}
 	public String getCPF() {
@@ -30,6 +30,10 @@ public class Salesman {
 	public void setCPF(String Cpf) {
 		CPF = Cpf;
 	}
+	@Override
+	public String toString() {
+		return "\nId: "+this.id+"\nCPF: "+this.CPF+"\nName: "+this.name+"\nSalary: "+this.salary;
+	} 	
 }
 
 

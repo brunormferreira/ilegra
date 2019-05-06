@@ -1,45 +1,48 @@
 package com.github.brunormferreira.desafiofinal.main;
 
-import java.io.*; 
-import java.util.HashSet; 
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-public class FileOperation 
-{ 
-    public static void main(String[] args) throws IOException  
-    { 
-        // PrintWriter object for output.txt 
-        PrintWriter pw = new PrintWriter("/home/ilegra0111/Documentos/Bruno/BrunoDesafio/Out/Test.txt"); 
-          
-        // BufferedReader object for input.txt 
-        BufferedReader br = new BufferedReader(new FileReader("/home/ilegra0111/Documentos/Bruno/BrunoDesafio/In/Test.txt")); 
-          
-        String line = br.readLine(); 
-        String[] arrayValores = line.split("\\ç");
-        for (String cell : arrayValores) { 
-            System.out.print(cell+" "); 
+public class FileOperation {
+	
+	private static final String path = "Data/In/file.dat";
+	
+	public static void main(String[] args) throws IOException {
+		readFiles();
+		
+		PrintWriter pw = new PrintWriter("Data/Out/file.done.dat");
+		BufferedReader br = new BufferedReader(new FileReader(path));
+		String line;
+		List<String> lines = new ArrayList<>();
+		List<String> myList = null;
+		while((line = br.readLine()) != null){
+            lines.add(line);
+            myList = Arrays.asList(line.split("\\ç"));
+			for (String cell : myList) {							
+				pw.print(cell + " ");
+			} 
+			pw.append(System.getProperty("line.separator"));
+		}
+		br.close();
+		pw.close();
+	}
+	
+	public static String readFiles() throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(path));
+        String receive = "";
+        while(br.ready()){
+           String linha = br.readLine();
+            String[] arrayValues = linha.split("\\ç");
+            for (String cell : arrayValues) { 
+                System.out.print(cell+" "); 
+                receive = cell;
+            }
+            System.out.println("\n");
         }
-          
-        // set store unique values 
-        HashSet<String> hs = new HashSet<String>(); 
-          
-        // loop for each line of input.txt 
-        while(line != null) 
-        { 
-            // write only if not 
-            // present in hashset 
-            if(hs.add(line)) 
-                pw.println(line); 
-              
-            line = br.readLine(); 
-              
-        } 
-          
-        pw.flush(); 
-          
-        // closing resources 
-        br.close(); 
-        pw.close(); 
-          
-        System.out.println("File operation performed successfully"); 
-    } 
-} 
+        br.close();
+        return receive;
+    }
+
+}
