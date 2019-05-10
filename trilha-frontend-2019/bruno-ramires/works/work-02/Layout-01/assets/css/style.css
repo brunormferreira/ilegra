@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: yellow;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: Quicksand;
+    margin-left: 20px;
+    padding-top: 16px;
+}
+
+nav {
+    background: yellow;
+    width: 500px;
+    height: 610px;
+    margin-right: 10px;
+}
+
+article {
+    background: yellow;
+    width: 800px;
+    height: 610px;
+    margin-right: 10px;
+}
+
+section {
+    background: yellow;
+    width: 400px;
+    height: 610px;
+}
+
+.main-content {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+footer {
+    background: yellow;
+    margin-top: 10px;
+    height: 69px;
+}

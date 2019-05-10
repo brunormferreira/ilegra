@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Quicksand;
+}
+
+nav {
+    background: green;
+    width: 200px;
+    height: 739px;
+    padding: 15px;
+    position: absolute;
+}
+
+div.content {
+    margin-left: 240px;
+
+}
+
+header,
+section,
+footer {
+    background: green;
+    margin-bottom: 10px;
+    padding: 15px;
+    height: 122px;
+}
+
+article {
+    background: green;
+    margin-bottom: 10px;
+    height: 255px;
+    padding: 15px;
+}
