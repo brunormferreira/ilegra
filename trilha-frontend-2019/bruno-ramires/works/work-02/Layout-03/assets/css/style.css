@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+
+h1 {
+  padding: 2%;
+  font-size: 40px;
+}
+
+article h2 {
+  padding: 1%;
+  margin-left: 14px;
+  margin-top: 20px;
+}
+
+header {
+  background-color: red;
+  color: white;
+}
+
+nav {
+  background-color: blue;
+  padding: 15px;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+}
+
+article {
+  width: 65%;
+  float: left;
+}
+
+aside {
+  width: 280px;
+  height: 250px;
+  float: right;
+  padding: 20px;
+  margin: 50px 75px 0;
+  border: 1px solid;
+}
+
+aside ul {
+  margin-left: 16%;
+  margin-top: 6%;
+}
+
+footer {
+  background-color: #a9a9a9;
+  clear: both;
+  height: 14px;
+  padding: 23px;
+}
+
+footer span {
+  margin: 10px;
+}
+
+p {
+  margin: 8px;
+  padding: 15px;
+}
