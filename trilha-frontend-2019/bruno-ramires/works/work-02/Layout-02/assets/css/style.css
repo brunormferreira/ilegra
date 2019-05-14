@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
 }
 
 h1 {
@@ -17,13 +16,13 @@ h1 {
 nav {
     background: green;
     width: 200px;
-    height: 739px;
+    height: 741px;
     padding: 15px;
     position: absolute;
 }
 
 div.content {
-    margin-left: 240px;
+    margin-left: 240px; 
 }
 
 header,
