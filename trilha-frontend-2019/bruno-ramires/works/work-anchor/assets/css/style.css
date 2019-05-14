@@ -9,7 +9,7 @@ html {
 
 body {
     background-color: lightgray;
-    font-family: Quicksand;
+    font-family: Quicksand, sans-serif;
 }
 
 * {
@@ -19,25 +19,41 @@ body {
 
 .conteudo {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 100%;
+    margin-top: 60px;
 }
 
 .menu-principal {
-    min-width: 400px;
+    min-width: 35%;
     text-align: center;
 }
 
 .menu-principal h1 {
     background: #333;
     color: #fff;
-    border-bottom: solid 5px #8cc1db;
-    padding: 15px 0px;
+    border-bottom: solid 5px #5ae43e;
+    padding: 15px 5px;
     margin: 0;
 }
 
-.menu-principal nav {}
+.menu-principal nav {
+    display: inline-block;
+    background-color: #fff;
+    min-width: 100%;
+}
 
-.menu-principal a {}
+.menu-principal a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 5px;
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-principal a:hover {
+    background-color: #98e076;
+}

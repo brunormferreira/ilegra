@@ -80,8 +80,8 @@ p {
   padding: 15px;
 }
 
-@media (max-width: 768px){
-  aside{
+@media (max-width: 768px) {
+  aside {
     float: left;
   }
 }
