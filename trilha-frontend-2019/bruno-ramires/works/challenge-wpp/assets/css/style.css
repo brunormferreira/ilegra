@@ -12,7 +12,8 @@
 html,
 body {
   height: 100%;
-  width: 100%; /* talvez seja aqui para o outro item descer */
+  width: 100%;
+  /* talvez seja aqui para o outro item descer */
   /* overflow: hidden; */
   padding: 0;
   margin: 0;
@@ -23,7 +24,7 @@ body {
   left: 0;
   height: 100vh;
   display: flex;
-   /* min-width: 600px;
+  /* min-width: 600px;
     max-width: 1200px;
     margin: auto;
     box-shadow: 0 2px 2px #aaaaaa; */
@@ -41,7 +42,8 @@ body {
   padding: 10px 16px;
   height: 59px;
   flex: none;
-  width: 399px; /* 30% */
+  width: 399px;
+  /* 30% */
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -75,7 +77,7 @@ svg {
 
 .section-research {
   background-color: #f8f8f8;
-  width: 398px; /* 30% */
+  width: 398px;
   height: 49px;
   display: flex;
   align-items: center;
@@ -108,21 +110,73 @@ svg {
 .input-text {
   width: 100%;
   border: 0 none;
+  outline: 0;
   border-radius: 40%;
 }
 
-.side-panel {
+.contact-list {
   background-color: #ffffff;
   width: 398px;
-  height: 573px;
+  height: 660px;
   border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.contact {
+  width: 394px;
+  height: 70px;
+  display: flex;
+}
+
+.side-panel-img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.contact-preview {
+  width: 272px;
+  height: 69px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  overflow: hidden;
+}
+
+.contact-text {
+  height: 40px;
+  margin: auto 0;
+  overflow: hidden;
+}
+
+.font-name {
+  color: #000000;
+  font-size: 1em;
+  font-weight: inherit;
+  padding-bottom: 3px;
+}
+
+.font-preview {
+  color: #444444;
+  font-size: 0.9em;
+  font-weight: inherit;
+}
+
+.contact-time {
+  width: 55px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /* PARTE DIREITA DA PAGE */
 
 .header-right {
-  background-color:#eeeeee;
-  width: 100%;
+  background-color: #eeeeee;
+  width: 975px;
   display: flex;
   height: 59px;
   box-sizing: border-box;
@@ -154,10 +208,56 @@ svg {
   height: 40px;
   display: flex;
   align-items: center;
+  margin-left: 50px;
 }
 
-.content-right{
-  background-color: green;
-  width: 450px;
-  height: 200px;
+.content-right {
+  background-color: #e5ddd5;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1089577/background.png);
+  width: 975px;
+  height: 650px;
 }
+
+.footer-right {
+  background-color: #f8f8f8;
+  height: 59px;
+  width: 970px;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.footer-right-container {
+  width: 940px;
+  height: 39px;
+  display: flex;
+  padding: 9px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box-right {
+  /* display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  width: 50%; */
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  width: 861px;
+  height: 32px;
+}
+
+.input-text-right {
+  width: 50%;
+  border: 0 none;
+  outline: 0;
+  margin-right: 397px;
+}
+
+
+
+/* min-width: 0;
+display: flex;
+flex-direction: column;
+justify-content: center; */
