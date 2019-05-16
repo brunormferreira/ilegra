@@ -12,7 +12,7 @@
 html,
 body {
   height: 100%;
-  width: 100%;
+  width: 100%; /* talvez seja aqui para o outro item descer */
   /* overflow: hidden; */
   padding: 0;
   margin: 0;
@@ -22,8 +22,8 @@ body {
   top: 0;
   left: 0;
   height: 100vh;
-  /* display: flex;
-    min-width: 600px;
+  display: flex;
+   /* min-width: 600px;
     max-width: 1200px;
     margin: auto;
     box-shadow: 0 2px 2px #aaaaaa; */
@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 398px;
 }
 
 .left-header {
@@ -115,4 +116,48 @@ svg {
   width: 398px;
   height: 573px;
   border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* PARTE DIREITA DA PAGE */
+
+.header-right {
+  background-color:#eeeeee;
+  width: 100%;
+  display: flex;
+  height: 59px;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 10px 16px;
+}
+
+.right-container {
+  width: 41px;
+  height: 40px;
+  padding: 0px 16px 0px 0px;
+}
+
+.username-right {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  white-space: nowrap;
+  color: black;
+  display: flex;
+  padding: 8px;
+  margin: 1px;
+  width: 676px;
+}
+
+.right-icons {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.content-right{
+  background-color: green;
+  width: 450px;
+  height: 200px;
 }
