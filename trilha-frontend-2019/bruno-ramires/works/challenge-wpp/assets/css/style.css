@@ -255,9 +255,31 @@ svg {
   margin-right: 397px;
 }
 
+@media (min-width: 1200px) {
+  .header-right {
+    width: 928px;
+  }
+  
+  .content-right {
+    width: 928px;
+    height: 507px;
+}
 
+  .footer-right {
+    width: 927px;
+  }
 
-/* min-width: 0;
-display: flex;
-flex-direction: column;
-justify-content: center; */
+  .footer-right-container {
+    width: 900px;
+    padding: 10px;
+  }
+
+  .box-right {
+    width: 900px;
+  }
+
+  .input-text-right {
+    width: 44%;
+  }
+
+}
