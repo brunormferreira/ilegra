@@ -67,8 +67,6 @@ const users = [
   },
 ];
 
-// map gera um array de string, e para tirara "," e gerar apenas uma unica string, basta colocar o .join('') no inner html
-
 const listUsers = users.map(function(user) {
   return `
   <div class="contact">
@@ -88,17 +86,15 @@ const listUsers = users.map(function(user) {
 
 document.getElementById("contacts-list").innerHTML = listUsers.join('');
 
-document
-  .getElementById("input-filter")
-  .addEventListener("keyup", function(event) {
+document.getElementById("input-filter").addEventListener("keyup", function(event) {
     const value = event.target.value;
 
     const filtered = users.filter(user => user.name.toLowerCase().includes(value));
 
-    let html2 = '';
+    let listUsersFiltered = '';
 
     filtered.forEach(function (user){
-      html2 += `
+      listUsersFiltered += `
       <div class="contact">
         <img src="${user.image}" class="side-panel-img">
         <div class="contact-preview">
@@ -113,7 +109,7 @@ document
         </div>
       `
     })
-    document.getElementById('contacts-list').innerHTML = html2;
+    document.getElementById('contacts-list').innerHTML = listUsersFiltered;
   });
 
 console.log(listUsers);
