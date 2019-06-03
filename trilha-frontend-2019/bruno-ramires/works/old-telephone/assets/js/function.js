@@ -1,9 +1,8 @@
 var count = 0;
-var tt = "";
-var concate = "";
-var inputElement = document.getElementById("campo").value;
-var result = "";
-var timer;
+let tt = "",
+  concate = "",
+  result = "";
+let timer;
 
 function button_01() {
   this.count += 1;
@@ -22,11 +21,10 @@ function button_01() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
-  // console.log('button1', concate);
 }
 
 function button_02() {
@@ -46,11 +44,10 @@ function button_02() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
-  // console.log('button2', concate);
 }
 
 function button_03() {
@@ -70,7 +67,7 @@ function button_03() {
     count = 0;
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
@@ -93,7 +90,7 @@ function button_04() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
@@ -116,7 +113,7 @@ function button_05() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
@@ -139,7 +136,7 @@ function button_06() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
@@ -165,7 +162,7 @@ function button_07() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
@@ -188,7 +185,7 @@ function button_08() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
@@ -214,18 +211,18 @@ function button_09() {
     clearTimeout(timer);
   }
   document.getElementById("campo").value = concate + tt;
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(tt);
     count = 0;
   }, 1000);
 }
 
-function clear() {
+function clean() {
   document.getElementById("campo").value = "";
 }
 
 function space() {
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     concate = concate.concat(" ");
     count = 0;
   }, 400);
