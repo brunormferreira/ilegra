@@ -2,7 +2,7 @@
   <header>
     <img class="hamburger-menu" src="../assets/imgs/hamburger_menu.png" alt="menu">
     <div class="content">
-      <img class="profile-image" src="../assets/imgs/me.jpeg">
+      <img class="profile-image" src="../assets/imgs/me.jpeg" alt="profile">
       <span>Bruno Ramires</span>
     </div>
   </header>
