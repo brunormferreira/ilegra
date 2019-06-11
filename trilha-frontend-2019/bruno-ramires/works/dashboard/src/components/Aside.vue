@@ -1,58 +1,58 @@
 <template>
-  <aside>
-    <div class="content">
-      <span class="content-text">AdminPanelTutorial</span>
+  <aside class="c-aside">
+    <div class="c-aside__content">
+      <h1 class="c-aside__brand">AdminPanel</h1>
     </div>
-    <section>
-      <div class="profile">
-        <img src="../assets/imgs/me.jpeg" class="profile-image" alt="profile">
-      </div>
-    </section>
+    <Profile name="Bruno Ramires" :status="status"></Profile>
+    <Search></Search>
+    <Nav></Nav>
   </aside>
 </template>
 
 <script>
-export default {};
+import Profile from "./Profile.vue";
+import Search from "./Search.vue";
+import Nav from "./Nav.vue";
+
+export default {
+  components: {
+    Profile,
+    Search,
+    Nav
+  },
+  data() {
+    return {
+      status: "off"
+    };
+  },
+  created() {
+    setTimeout(() => {
+      this.status = "on";
+    }, 3000);
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-aside {
-  background: #ff0;
-  width: 273px;
+.c-aside {
+  background: #222b30;
+  width: 275px;
   height: 100%;
   position: absolute;
 }
 
-.content {
+.c-aside__content {
   position: relative;
-  width: 273px;
+  width: 275px;
   height: 60px;
-  background: #ffaabb;
+  background: #357eab;
 }
 
-.content-text {
-  font-weight: bold;
-  width: 150px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  margin-left: 38px;
-  margin-top: 0px;
-  font-size: 1.2rem;
-  padding: 10px;
-}
-
-.profile {
-  display: flex;
-  width: 273px;
-  height: 82px;
+.c-aside__brand {
+  position: absolute;
+  margin: 0;
   padding: 11px;
-}
-
-.profile-image {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
+  margin-left: 34px;
 }
 </style>
