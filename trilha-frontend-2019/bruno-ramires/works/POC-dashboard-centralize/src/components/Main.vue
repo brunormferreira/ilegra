@@ -1,8 +1,10 @@
 <template>
-  <div class="c-main-principal">
-    <Header></Header>
-    <Content></Content>
-    <Footer></Footer>
+  <div class="total">
+    <div class="c-main-principal">
+      <Header></Header>
+      <Content></Content>
+      <Footer></Footer>
+    </div>
   </div>
   <!-- Header - Content-principal - Footer -->
 </template>
@@ -23,6 +25,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.total {
+  width: 80%;
+  height: 100vh;
+}
+
 .c-main-principal {
   display: flex;
   flex-direction: column;

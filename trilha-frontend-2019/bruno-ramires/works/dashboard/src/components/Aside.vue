@@ -38,7 +38,7 @@ export default {
 .c-aside {
   background: #222b30;
   width: 275px;
-  height: 100%;
+  height: 100vh;
   position: absolute;
 }
 
