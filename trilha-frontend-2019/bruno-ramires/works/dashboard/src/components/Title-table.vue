@@ -23,7 +23,6 @@ export default {};
   justify-content: space-between;
   align-items: center;
   height: 54px;
-  width: 100%;
   padding: 21px;
 }
 
@@ -56,5 +55,6 @@ export default {};
 
 .c-main__text-navigation {
   cursor: pointer;
+  color: #38464c;
 }
 </style>
