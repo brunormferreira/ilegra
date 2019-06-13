@@ -6,25 +6,25 @@
     <ul class="c-header__list">
       <a href="#" class="c-header__link">
         <li class="c-header__item">
-          <img class="c-header__item-image" src="../assets/imgs/peoples.png">
+          <img class="c-header__item-image" src="../../assets/imgs/peoples.png">
           <span class="c-header__item-text">Home</span>
         </li>
       </a>
       <a href="#" class="c-header__link">
         <li class="c-header__item">
-          <img class="c-header__item-image" src="../assets/imgs/peoples.png">
+          <img class="c-header__item-image" src="../../assets/imgs/peoples.png">
           <span class="c-header__item-text">Doctors</span>
         </li>
       </a>
       <a href="#" class="c-header__link">
         <li class="c-header__item">
-          <img class="c-header__item-image" src="../assets/imgs/peoples.png">
+          <img class="c-header__item-image" src="../../assets/imgs/peoples.png">
           <span class="c-header__item-text">Nurses</span>
         </li>
       </a>
       <a href="#" class="c-header__link">
         <li class="c-header__item">
-          <img class="c-header__item-image" src="../assets/imgs/peoples.png">
+          <img class="c-header__item-image" src="../../assets/imgs/peoples.png">
           <span class="c-header__item-text">Patients</span>
         </li>
       </a>

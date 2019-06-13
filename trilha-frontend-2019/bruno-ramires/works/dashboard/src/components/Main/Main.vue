@@ -2,19 +2,20 @@
   <main class="c-main">
     <Title></Title>
     <Table></Table>
+    <FooterMain></FooterMain>
   </main>
 </template>
 
 <script>
-import Title from "./Title-table.vue";
-import Table from "./Table.vue";
-// criar footerMain para o template main;
+import Title from "../Main/Title-table";
+import Table from "../Table/Table.vue";
+import FooterMain from "../Main/Footer-main.vue";
 
 export default {
   components: {
     Title,
-    Table
-    // footerMain
+    Table,
+    FooterMain
   }
 };
 </script>
@@ -28,5 +29,6 @@ export default {
   width: 80%;
   height: 92vh;
   margin-left: 275px;
+  border-bottom: 2px solid #ebeef1;
 }
 </style>

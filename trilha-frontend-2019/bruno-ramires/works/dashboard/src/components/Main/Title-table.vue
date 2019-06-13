@@ -4,9 +4,9 @@
     <span class="c-main__subtext">advanced tables</span>
     <section class="c-main__container-navigation">
       <span class="c-main__text-navigation">Home</span>
-      <img src="../assets/imgs/arrow1.png" class="c-main__image-arrow" alt="Arrow" title="Arrow">
+      <img src="../../assets/imgs/arrow1.png" class="c-main__image-arrow" alt="Arrow" title="Arrow">
       <span class="c-main__text-navigation">Tables</span>
-      <img src="../assets/imgs/arrow1.png" class="c-main__image-arrow" alt="Arrow" title="Arrow">
+      <img src="../../assets/imgs/arrow1.png" class="c-main__image-arrow" alt="Arrow" title="Arrow">
       <span class="c-main__text-navigation">Data tables</span>
     </section>
   </section>
