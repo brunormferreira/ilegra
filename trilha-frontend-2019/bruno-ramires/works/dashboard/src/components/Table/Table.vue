@@ -11,16 +11,16 @@
         <th>Specialist</th>
         <th>Action</th>
       </tr>
-      <tr>
-        <td>1</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
+      <tr v-for="user in users" :key="user.id">
+        <td>{{ user.id }}</td>
+        <td>{{ user.first_name }}</td>
+        <td>{{ user.email }}</td>
         <td>teste</td>
         <td>teste</td>
         <td>teste</td>
         <td>teste</td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td>2</td>
         <td>Francisco Chang</td>
         <td>Mexico</td>
@@ -73,7 +73,7 @@
         <td>teste</td>
         <td>teste</td>
         <td>teste</td>
-      </tr>
+      </tr>-->
     </table>
     <FooterTable></FooterTable>
   </div>
@@ -83,10 +83,20 @@
 import HeaderTable from "../Table/Header-table.vue";
 import FooterTable from "../Table/Footer-table.vue";
 
+import UsersService from "@/services/users";
+
 export default {
   components: {
     HeaderTable,
     FooterTable
+  },
+  created() {
+    UsersService.getUsers().then(users => {
+      this.users = users.data.data;
+    });
+  },
+  data() {
+    return { users: [] };
   }
 };
 </script>
