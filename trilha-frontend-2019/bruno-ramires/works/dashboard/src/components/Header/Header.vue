@@ -54,4 +54,10 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  img.hamburger-menu {
+    margin-left: 16px;
+  }
+}
 </style>

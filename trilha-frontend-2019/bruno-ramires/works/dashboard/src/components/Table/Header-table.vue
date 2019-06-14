@@ -54,4 +54,10 @@ export default {
   margin-left: 4px;
   margin-right: 10px;
 }
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .c-header-table {
+    height: 73px;
+  }
+}
 </style>

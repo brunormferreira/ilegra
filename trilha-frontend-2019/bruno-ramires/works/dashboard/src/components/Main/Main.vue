@@ -31,4 +31,10 @@ export default {
   margin-left: 275px;
   border-bottom: 2px solid #ebeef1;
 }
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .c-main {
+    width: 79%;
+    height: 90vh;
+  }
+}
 </style>

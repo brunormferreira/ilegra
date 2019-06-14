@@ -130,4 +130,10 @@ td {
 tr:nth-child(even) {
   background-color: #f8f8f9;
 }
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  td {
+    padding: 8px;
+  }
+}
 </style>

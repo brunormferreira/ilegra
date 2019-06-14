@@ -57,4 +57,12 @@ export default {};
   cursor: pointer;
   color: #38464c;
 }
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .c-main__container-info {
+    height: 39px;
+    margin-left: 14px;
+    padding: 0;
+  }
+}
 </style>
