@@ -1,7 +1,7 @@
 <template>
   <section class="c-profile">
     <section class="c-profile__content">
-      <img src="../assets/imgs/me.jpeg" class="c-profile__image" alt="profile">
+      <img src="../../assets/imgs/me.jpeg" class="c-profile__image" alt="profile">
       <div class="c-profile__container-text">
         <h3 class="c-profile__text">{{ name }}</h3>
         <div class="c-profile__radius" v-if="status !== 'off'"></div>

@@ -1,12 +1,7 @@
 <template>
   <section class="c-search">
     <input type="text" class="c-search__input" placeholder="Search...">
-    <img
-      src="../assets/imgs/icon-search.png"
-      class="c-search__icon-search"
-      alt="Search"
-      title="Search"
-    >
+    <img src="../../assets/imgs/icon-search.png" class="c-search__icon-search" alt="Search" title="Search">
   </section>
 </template>
 

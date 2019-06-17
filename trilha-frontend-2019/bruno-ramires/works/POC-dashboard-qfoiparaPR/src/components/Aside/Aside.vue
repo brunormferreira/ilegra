@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Profile from "./Profile.vue";
-import Search from "./Search.vue";
-import Nav from "./Nav.vue";
+import Profile from "../Aside/Profile.vue";
+import Search from "../Aside/Search.vue";
+import Nav from "../Aside/Nav.vue";
 
 export default {
   components: {
@@ -38,7 +38,7 @@ export default {
 .c-aside {
   background: #222b30;
   width: 275px;
-  height: 100%;
+  height: 100vh;
   position: absolute;
 }
 
