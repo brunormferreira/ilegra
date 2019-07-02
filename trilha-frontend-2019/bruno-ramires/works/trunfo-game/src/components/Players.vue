@@ -10,7 +10,7 @@
         <input type="text" class="players-input" v-model="name2"/>
       </div>
     </div>
-    <ButtonStart @click="saveName()" text="Play"/>
+    <ButtonStart @click="saveName()" text="Start Game"/>
   </section>
 </template>
 
@@ -24,7 +24,6 @@ export default {
   },
   data() {
     return {
-      playersName: [],
       name1: '',
       name2: '',
     }
@@ -36,6 +35,17 @@ export default {
      this.$router.push({ path: '/game' });
     },
   },
+  mounted() {
+    if (localStorage.name) {
+      this.name1 = localStorage.name;
+      this.name2 = localStorage.name;
+    }
+  },
+  watch: {
+    name(newName) {
+      localStorage.name = newName; 
+    }
+  }
 }
 </script>
 
