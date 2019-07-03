@@ -30,20 +30,21 @@ export default {
   },
   methods: {
     saveName() {
-     console.log(this.name1);
-     console.log(this.name2);
      this.$router.push({ path: '/game' });
     },
   },
+  // Vai montar quando o componente é gerado, executando estas ações.
   mounted() {
-    if (localStorage.name) {
-      this.name1 = localStorage.name;
-      this.name2 = localStorage.name;
-    }
+    this.name1 = localStorage.name1;
+    this.name2 = localStorage.name2;
   },
+  // Vai ficar assistindo a variaval, na qual irá mudar, já salvando no localStorage.
   watch: {
-    name(newName) {
-      localStorage.name = newName; 
+    name1(newName) {
+      localStorage.name1 = newName; 
+    },
+    name2(newName) {
+      localStorage.name2 = newName; 
     }
   }
 }
