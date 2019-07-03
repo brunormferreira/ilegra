@@ -4,10 +4,12 @@
       <div class="players">
         <h3>Nome do Jogador 1</h3>
         <input type="text" class="players-input" v-model="name1"/>
+        {{name1}}
       </div>
       <div class="players">
         <h3>Nome do Jogador 2</h3>
         <input type="text" class="players-input" v-model="name2"/>
+        {{name2}}
       </div>
     </div>
     <ButtonStart @click="saveName()" text="Start Game"/>
