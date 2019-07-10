@@ -2,20 +2,20 @@
   <main class="c-main">
     <Title></Title>
     <Table></Table>
-    <FooterMain></FooterMain>
+    <Footer></Footer>
   </main>
 </template>
 
 <script>
-import Title from "../Main/Title-table";
+import Title from "../Main/Title-main";
 import Table from "../Table/Table.vue";
-import FooterMain from "../Main/Footer-main.vue";
+import Footer from "../Main/Footer-main.vue";
 
 export default {
   components: {
     Title,
     Table,
-    FooterMain
+    Footer
   }
 };
 </script>
@@ -31,7 +31,7 @@ export default {
   margin-left: 275px;
   border-bottom: 2px solid #ebeef1;
 }
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1366px) {
   .c-main {
     width: 79%;
     height: 90vh;

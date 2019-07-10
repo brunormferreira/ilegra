@@ -1,8 +1,8 @@
 <template>
-  <header>
-    <img class="hamburger-menu" src="../../assets/imgs/hamburger_menu.png" alt="menu">
-    <div class="content">
-      <img class="profile-image" src="../../assets/imgs/me.jpeg" alt="profile">
+  <header class="c-header">
+    <img class="c-header__hamburger-menu" src="../../assets/imgs/hamburger_menu.png" alt="menu">
+    <div class="c-header__content">
+      <img class="c-header__profile-image" src="../../assets/imgs/me.jpeg" alt="profile">
       <span>Bruno Ramires</span>
     </div>
   </header>
@@ -14,7 +14,7 @@ export default {};
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-header {
+.c-header {
   background-color: #3c8cbd;
   width: 80%;
   height: 60px;
@@ -23,14 +23,14 @@ header {
   float: right;
 }
 
-img.hamburger-menu {
+.c-header__hamburger-menu {
   width: 45px;
   height: 45px;
   padding: 6px;
   cursor: pointer;
 }
 
-.content {
+.c-header__content {
   display: flex;
   align-content: center;
   align-items: center;
@@ -39,7 +39,7 @@ img.hamburger-menu {
   float: right;
 }
 
-.profile-image {
+.c-header__profile-image {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -55,8 +55,8 @@ h1 {
   padding: 0;
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
-  img.hamburger-menu {
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .c-header__hamburger-menu {
     margin-left: 16px;
   }
 }

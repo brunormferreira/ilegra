@@ -1,5 +1,4 @@
-const users = [
-  {
+const users = [{
     name: "Mister M",
     lastMessage: "Vamos começar a mágica?",
     image: "assets/img/me.jpeg",
@@ -67,8 +66,9 @@ const users = [
   },
 ];
 
-const listUsers = users.map(function(user) {
-  return `
+function listaUsuarios() {
+  const listUsers = users.map(function (user) {
+    return `
   <div class="contact">
     <img src="${user.image}" class="side-panel-img">
     <div class="contact-preview">
@@ -80,20 +80,21 @@ const listUsers = users.map(function(user) {
     <div class="contact-time">
       <p>${user.time}</p>
     </div>
-    </div>
+  </div>
   `;
-});
+  });
+  document.getElementById("contacts-list").innerHTML = listUsers.join('');
+}
 
-document.getElementById("contacts-list").innerHTML = listUsers.join('');
-
-document.getElementById("input-filter").addEventListener("keyup", function(event) {
+function filtraUsuarios() {
+  document.getElementById("input-filter").addEventListener("keyup", function (event) {
     const value = event.target.value;
 
     const filtered = users.filter(user => user.name.toLowerCase().includes(value));
 
     let listUsersFiltered = '';
 
-    filtered.forEach(function (user){
+    filtered.forEach(function (user) {
       listUsersFiltered += `
       <div class="contact">
         <img src="${user.image}" class="side-panel-img">
@@ -111,5 +112,7 @@ document.getElementById("input-filter").addEventListener("keyup", function(event
     })
     document.getElementById('contacts-list').innerHTML = listUsersFiltered;
   });
+}
 
-console.log(listUsers);
+filtraUsuarios();
+listaUsuarios();

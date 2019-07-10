@@ -79,7 +79,7 @@ export default {
   background-color: #f8f8f9;
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1366px) {
   .c-main-principal__table-column {
     padding: 8px;
   }

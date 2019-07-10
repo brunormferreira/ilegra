@@ -58,7 +58,7 @@ export default {};
   color: #38464c;
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1366px) {
   .c-main__container-info {
     height: 39px;
     margin-left: 14px;
