@@ -11,7 +11,7 @@ body{
 }
 
 h1.logo{
-    background-image: url(images/logo.png);
+    background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     width: 100px;
     text-indent: -10000px;
@@ -49,7 +49,7 @@ header nav li a{
 }
 
 #home-menu h2{
-    background-image: url(images/menu-head.png);
+    background-image: url("../images/menu-head.png");
     background-repeat: no-repeat;
     width: 156px;
     height: 74px;
@@ -221,6 +221,46 @@ footer ul{
 
 /* Mobiles */
 @media screen and (max-width: 480px) {
+
+.burger-nav{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(../images/burger.png) no-repeat 98% center;
+    background-size: 70px 75px;
+    background-color: #404040;
+    cursor: pointer;
+}
+
+header .wrapper {
+    width: 100%;
+    padding: 0;
+}
+
+header nav ul {
+    overflow: hidden;
+    background: #505050;
+    height: 0;
+}
+
+header nav ul.open {
+    height: auto;
+}
+
+header nav ul li {
+    float: none;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #404040;
+    display: block;
+    margin: 0;
+}
 
 #featured li{
     width: 90%;
