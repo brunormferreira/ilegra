@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url(../../fonts/product-sans/ProductSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(../../fonts/roboto/Roboto-Light.ttf);
+}
+
+.menu-left {
+    width: 256px;
+    height: 100%;
+}
+
+.write-button {
+    width: 256px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.write-email {
+    display: flex;
+    align-items: center;
+    border-radius: 45px;
+    padding-left: 10px;
+    margin-left: 8px;
+    width: 139px;
+    height: 53px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+.write-email:hover {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
+    background-color: #fafafb;
+}
+
+.write-email-text {
+    font-family: 'Google Sans';
+    font-size: 16px;
+    padding-left: 14px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    color: #3c4043;
+}
+
+.write-email-img {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-menu {
+    width: 256px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 8px 0 17px;
+    margin-left: -40px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 31px;
+}
+
+.nav-item:hover {
+    border-radius: 14px;
+    /* background-color: #fce8e6; red*/
+    background-color: #e8eaed;
+}
+
+.nav-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.nav-text {
+    font-family: 'Roboto';
+    color: #202124;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.nav-text:first-child:active,
+.nav-text:first-child:enabled {
+    color: red;
+    background-color: black;
+}
+
+.nav-item img {
+    margin-right: 18px;
+    opacity: 0.54;
+    width: 20px;
+    height: 20px;
+}
+
+.hangout-header {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-top: 1px solid rgba(100, 121, 143, 0.122);
+}
+
+.hangout-header img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-left: 19px;
+}
+
+.hangout-header span {
+    width: 160px;
+    padding-left: 12px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #202124;
+}
+
+.hangout-header svg {
+    float: right;
+    fill: #757575;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.hangout-container-addict-icon {
+    width: 41px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 19px;
+}
+
+.hangout-container-addict-icon:hover {
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    height: 35px;
+    cursor: pointer;
+    width: 41px;
+    margin-right: 19px;
+}
+
+.hangout-talk {
+    width: 217px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(100, 121, 143, 0.122);
+}
+
+.hangout-talk-profile {
+    display: flex;
+    align-items: center;
+    width: 217px;
+    height: 40px;
+    margin-top: 8px;
+    font-family: 'Roboto';
+}
+
+.hangout-talk-profile:hover {
+    cursor: pointer;
+    background-color: #f1f3f4;
+}
+
+.hangout-talk-profile img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.profile-message {
+    font-size: 11px;
+    color: #666;
+
+}
+
+.hangout-users-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.hangout-footer {
+    display: flex;
+    width: 256px;
+    position: absolute;
+    bottom: 0;
+}
+
+.hangout-list-options {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.hangout-options img {
+    cursor: pointer;
+    opacity: 0.60;
+}
+
+.hangout-options img:hover {
+    opacity: 0.90;
+}
+
+.hangout-options:nth-child(2n) {
+    padding: 0 14px 0 14px;
+}
+
+.hangout-options:last-child {
+    background: url(https://ssl.gstatic.com/mail/sprites/hangouts_black-734a4722bcd0d29f1eba9aaa722c7c76.png) 0 -390px;
+    width: 21px;
+    height: 21px;
+    opacity: 0.70;
+}
+
+.hangout-options:last-child:hover {
+    cursor: pointer;
+    opacity: 0.90;
+}

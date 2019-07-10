@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url(../../fonts/product-sans/ProductSans-Regular.ttf);
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.new-message{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 580px;
+    border-radius: 3px 3px 0 0;
+    height: 600px;
+    box-shadow: 0 0 1px black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 60px;
+    z-index: 100;
+    background-color: white;
+}
+
+.new-message-header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #404040;
+    border-radius: 3px 3px 0 0;
+    color: white;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.new-message-header p{
+    margin: 0;
+}
+
+.new-message-header-icons{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+}
+
+.header-sprites{
+    opacity: 0.6;
+    height: 24px;
+    width: 24px;
+    margin: 0;
+    padding: 0; 
+}
+
+.header-sprites:hover{
+    background-color: #737373;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.new-message-minimize{
+    background: no-repeat url(https://ssl.gstatic.com/mail/sprites/general-76906fbc82f79822625038e272fa3893.png) 0 -337px;  
+}
+
+.new-message-maximize{
+    background: url(//ssl.gstatic.com/ui/v1/icons/mail/expand_window.png) 0 0/24px no-repeat;
+}
+
+.new-message-close{
+    background: no-repeat url(https://ssl.gstatic.com/mail/sprites/general-76906fbc82f79822625038e272fa3893.png) 0 -144px;
+}
+
+.new-email{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.recipient, .subject{
+    height: 20px;
+    padding: 8px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(232, 236, 241, 0.8);
+    width: 550px;
+    font-size: 13px;
+}
+
+.email-body{
+    resize: none;
+    outline: none;
+    border: none;
+    width: 550px;
+    height: 100%; 
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-message-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 16px;
+}
+
+.send-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.send-buttons input, .send-buttons button{
+    background-color: #1a73e8;
+    border: none;
+    outline: none;
+    height: 35px;
+    
+}
+
+.send-button {
+    border-right: 1px solid rgba(0,0,0, 0.5) !important;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: 'Google Sans';
+    font-weight: bold;
+}
+
+.send-options-button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+}
+
+.new-message-footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.email-footer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.email-icon img{
+    opacity: 0.55;
+    text-align: center;
+    padding: 4px;
+    height: 20px;
+}
+
+.email-icon:hover img{
+    opacity: 1;
+    background-color: #f1f3f4;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.email-icons-list-right, .email-icon {
+    margin: 4px;
+}
+.email-icons-list-left, .email-icon {
+    margin: 4px;
+}

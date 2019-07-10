@@ -1,0 +1,45 @@
+.lateral-panel {
+    float:right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 55px;
+    border-left: 1px solid rgba(232, 236, 241, 0.8);
+}
+
+.lateral-panel-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.lateral-panel-item {
+    margin: 8px 0;
+}
+
+.google-app, .more-google-apps, .icon-more{
+    height: 20px;
+    padding: 10px;
+}
+
+.google-app:hover, .more-google-apps:hover, .icon-more:hover{
+    background-color: lightgray;
+    border-radius: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.line{
+    width: 20px;
+    margin: 25px auto;
+    opacity: 0.5;
+}
+
+.icon-more {
+    margin-bottom: 16px;
+}

@@ -1,0 +1,101 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("../../fonts/Roboto-Regular.ttf");
+}
+
+html, body{
+    font-family: "Roboto";
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(232, 236, 241, 0.8);
+    height: 65px;
+}
+
+.nav-bar{
+    margin-left: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gmail-logo{
+    margin-left: 5px;
+}
+
+.icons-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon-img, .icon-menu, .icon-search, .icon-filter{
+    height: 24px;
+    fill: #5e6368;
+}
+
+.icon-img, .icon-search, .icon-filter{
+    padding: 8px;
+}
+
+.icon-menu {
+    padding: 12px;
+}
+
+.user-img {
+    padding: 4px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.icon-img:hover, .user-img:hover, .icon-menu:hover, .icon-search:hover, .icon-filter:hover{
+    background-color: lightgray;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.search-email-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f3f4;
+    width: 75%;
+    height: 48px;
+    margin-left: 80px;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+
+.search-email{
+    border: none;
+    outline: none;
+    background-color: #f1f3f4;
+    font-size: 15px;
+    width: 100%;
+    margin-left:10px;
+}
+
+.search-email-click{
+    background-color: white;
+    box-shadow: 0 4px 5px -5px black;
+    border: 0.5px solid rgba(232, 236, 241, 0.8);
+}
+
+.search-container{
+    width: 80%;
+}
+
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+
+.icons-item{
+    margin: 3px;
+}

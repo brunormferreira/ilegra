@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../../fonts/roboto/Roboto-Light.ttf);
+}
+
+.emails {
+    background-color: #fff;
+    overflow-y: scroll;
+    flex: 1;
+}
+
+.email-list {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.email-list img {
+    opacity: 0.2;
+}
+
+.email-list tr {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.email-list tr:hover {
+    z-index: 1;
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+}
+
+.info-column {
+    width: 168px;
+    padding-right: 32px;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+.info-column:nth-child(2n) {
+    width: 100%;
+}
+
+.info-column:last-child {
+    width: 120px;
+    padding-right: 0px;
+}
+
+.email-item {
+    color: #202124;
+    letter-spacing: .2px;
+    font-family: 'Roboto';
+}
+
+.email-item-info {
+    color: #909498;
+    font-family: 'Roboto-Light';
+    font-weight: 600;
+}
+
+.email-font-size {
+    font-size: .875rem;
+}
+
+.email-item-time {
+    font-family: 'Roboto';
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.checkbox-column {
+    width: 44px;
+    height: 20px;
+}
+
+.star-column {
+    height: 20px;
+    width: 35px;
+}

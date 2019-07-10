@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url(../../fonts/product-sans/ProductSans-Regular.ttf);
+}
+
+.minimize-new-message p{
+    margin: 0px;
+    padding: 0px 0 0 15px;
+    color: #fff;
+}
+.minimize-new-message {
+    display: flex;
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    background-color: #404040;
+    justify-content: space-between;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 60px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.minimize-new-message-icons-list {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    opacity: .6;
+}
+
+.minimize-new-message-icons-list li:hover {
+    background-color: #737373;
+    opacity: 1;
+}
+
+.minimize-icon {
+    background: no-repeat url(https://ssl.gstatic.com/mail/sprites/general-76906fbc82f79822625038e272fa3893.png) 0 -219px;
+    width: 24px;
+    height: 24px;
+}
+
+.full-size-icon {
+    background: url(//ssl.gstatic.com/ui/v1/icons/mail/expand_window.png) 0 0/24px no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.close-icon {
+    background: no-repeat url(https://ssl.gstatic.com/mail/sprites/general-76906fbc82f79822625038e272fa3893.png) 0 -144px;
+    width: 24px;
+    height: 24px;
+}

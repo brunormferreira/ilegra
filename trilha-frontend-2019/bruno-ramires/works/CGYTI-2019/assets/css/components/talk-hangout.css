@@ -1,0 +1,125 @@
+.talk-hangout {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 262px;
+    border-radius: 3px 3px 0 0;
+    height: 360px;
+    box-shadow: 0 0 1px black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 60px;
+    z-index: 100;
+    background-color: white;
+}
+
+.talk-hangout-detail {
+    background: no-repeat url(//ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png) -754px -182px;
+    height: 14px;
+    width: 14px;
+}
+
+.talk-hangout-name {
+    margin-left: -23px;
+}
+
+.new-message-header-hangout {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #404040;
+    border-radius: 3px 3px 0 0;
+    color: white;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hangout-container {
+    display: flex;
+    flex-direction: column;
+    height: 52vh;
+}
+
+.hangout-talk-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+    width: 100%;
+    background-color: #eceff1;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.hangout-talk-div {
+    display: flex;
+}
+
+.hangout-talk-nav svg:first-child {
+    padding-left: 5px;
+}
+
+.hangout-talk-nav svg:nth-child(2n) {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.hangout-talk-container {
+    flex: 1;
+    background-color: #eceff1;
+}
+
+.hangout-talk-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.hangout-talk-footer label {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    margin-left: 15px;
+    border: none;
+}
+
+.hangout-talk-footer input:placeholder {
+    margin-left: 10px;
+}
+
+.hangout-talk-footer input {
+    border: 0 none;
+    outline: 0;
+}
+
+.icon-video {
+    background: no-repeat url(//ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png) -31px -41px;
+    height: 32px;
+    width: 29px;
+    cursor: pointer;
+}
+
+.icon-more-peoples {
+    background: no-repeat url(//ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png) -722px -150px;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+}
+
+.icon-smile {
+    background: no-repeat url(//ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png) -217px 0;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-picture {
+    background: no-repeat url(//ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png) -332px -66px;
+    height: 18px;
+    width: 18px;
+}
