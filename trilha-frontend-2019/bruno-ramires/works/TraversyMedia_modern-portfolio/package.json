@@ -1,0 +1,14 @@
+{
+  "name": "traversymedia_modern-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "echo \"Hello from sass script\""
+  },
+  "author": "Bruno Ramires",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
