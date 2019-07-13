@@ -90,36 +90,6 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-@media screen and (max-width: 768px) {
-  main {
-    align-items: center;
-    text-align: center; }
-    main .lg-heading {
-      line-height: 1;
-      margin-bottom: 1rem; }
-  ul.menu-nav,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0; }
-    ul.menu-nav.show,
-    div.menu-branding.show {
-      transform: translate3d(0, 0, 0); }
-    ul.menu-nav .menu-nav,
-    div.menu-branding .menu-nav {
-      height: 75vh;
-      transform: translate3d(-100%, 0, 0);
-      font-size: 24px; }
-    ul.menu-nav .menu-branding,
-    div.menu-branding .menu-branding {
-      height: 25vh;
-      transform: translate3d(100%, 0, 0); }
-      ul.menu-nav .menu-branding .portrait,
-      div.menu-branding .menu-branding .portrait {
-        background: url("../img/portrait_small.jpg");
-        width: 150px;
-        height: 150px; } }
-
 * {
   box-sizing: border-box; }
 
@@ -184,7 +154,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -211,3 +181,38 @@ main {
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show,
+    div.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+    ul.menu-nav .menu-nav,
+    div.menu-branding .menu-nav {
+      height: 75vh;
+      transform: translate3d(-100%, 0, 0);
+      font-size: 24px; }
+    ul.menu-nav .menu-branding,
+    div.menu-branding .menu-branding {
+      height: 25vh;
+      transform: translate3d(100%, 0, 0); }
+      ul.menu-nav .menu-branding .portrait,
+      div.menu-branding .menu-branding .portrait {
+        background: url("../img/portrait_small.jpg");
+        width: 150px;
+        height: 150px; }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr; }
+  .projects {
+    grid-template-columns: repeat(2, 1fr); } }
