@@ -26,8 +26,8 @@ function myFunction(item) {
       console.log(divExt(number1, number2));
     }else{
       Error.prototype.message = `${item} WARNING "valor de operacao invalido!"`;
-      let data = new Date();
-      console.log(data);
+      let date = new Date();
+      console.log(date);
       console.log(Error.prototype.message);
     }
 }
