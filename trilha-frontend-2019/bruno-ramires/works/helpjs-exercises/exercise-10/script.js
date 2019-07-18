@@ -1,3 +1,5 @@
+// one line commentary for exercise 12.
+
 const inputValue1 = document.getElementById('soma1');
 const inputValue2 = document.getElementById('soma2');
 const sumButton = document.getElementById('btn-soma');
