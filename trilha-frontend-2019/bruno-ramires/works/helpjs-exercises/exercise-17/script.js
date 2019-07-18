@@ -6,5 +6,9 @@ let result = document.getElementById('resultado-soma');
 sumButton.addEventListener('click', () => result.value = sum(inputValue1.value, inputValue2.value));
 
 function sum(a, b) {
-  return parseInt(a) + parseInt(b);
+  if(a == '' || b == '') {
+    return 0;
+  } else {
+    return parseInt(a) + parseInt(b);
+  }
 }
