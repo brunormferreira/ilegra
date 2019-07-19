@@ -1,0 +1,8 @@
+-PULL NO FORK SEM IMPLICAR NA BRANCH QUE ESTA TRABALHANDO-
+
+1) Mude para branch master
+2) Da um fetch (para puxar do repo original)
+3) Faz um Merge (da Master para sua branch)
+4) Seja feliz!
+
+help: https://help.github.com/en/articles/syncing-a-fork

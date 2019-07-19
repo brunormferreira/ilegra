@@ -1,4 +1,4 @@
-*note for dont conflict git*
+﻿*note for dont conflict git*
 1) Realizar as alterações em uma branch específica (crie uma nova para seu componente) - (git checkout -b /nomeDaBranch/);
 2) Atualizar com a upstream (git pull upstream master);
 3) Realizar um /pull upstream/ dentro da master (/git pull upstream master/);
@@ -6,4 +6,6 @@
 5) Abrir o PR(Pull Request)
 6) Mergear.
 
+
+by: Bruno Ramires
 GG!
