@@ -12,3 +12,12 @@ function sum(a, b) {
     return parseInt(a) + parseInt(b);
   }
 }
+
+// Other mode to do
+// function sum(a, b) {
+//   if(!(a && b)) {
+//     return 0;
+//   } else {
+//     return parseInt(a) + parseInt(b);
+//   }
+// }
