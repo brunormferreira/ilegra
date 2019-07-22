@@ -1,0 +1,23 @@
+body {
+  background-color: lightsalmon;
+}
+
+input {
+  width: 50%;
+  display:block;
+  padding: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+button {
+  font-size: 20px;
+  color: white;
+  padding: 15px 30px;
+  border: 0;
+  background-color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
