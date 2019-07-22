@@ -16,3 +16,18 @@ setInterval(() => {
     actualBear.setAttribute('src', bear01);
   }
 }, 200)
+
+// Other mode to do the resolution
+// setInterval(() => {
+//   let actualBear = document.getElementById('bear');
+
+//   if(actualBear.src == bear01) {
+//     actualBear.src = bear02;
+//   }
+//   else if(actualBear.src == bear02) {
+//     actualBear.src = bear03;
+//   }
+//   else if(actualBear.src == bear03) {
+//     actualBear.src = bear01;
+//   }
+// }, 200)
