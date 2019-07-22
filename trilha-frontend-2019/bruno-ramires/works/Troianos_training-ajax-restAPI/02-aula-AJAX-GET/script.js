@@ -2,7 +2,7 @@ let btn = document.querySelector('#btn');
 let list = document.querySelector('#list');
 
 btn.addEventListener('click', function() {
-  fetch('https://reqres.in/api/users?page=2')
+  fetch('https://reqres.in/api/users?per_page=7')
     .then(function(response) {
       return response.json();
     })
