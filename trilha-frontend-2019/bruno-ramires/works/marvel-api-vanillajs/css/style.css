@@ -88,3 +88,16 @@ h3 {
 ul {
   list-style: none;
 }
+
+/* menu aside */
+.aside-menu {
+  position: fixed;
+  left: -12px;
+  top: 20%;
+  width: 77px;
+  height: 56px;
+  margin-top: -2.5em;
+  background: #282828;
+  border-radius: 21px;
+  letter-spacing: 2px;
+}
