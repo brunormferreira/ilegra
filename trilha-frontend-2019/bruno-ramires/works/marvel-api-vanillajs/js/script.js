@@ -52,4 +52,5 @@ search.addEventListener('keyup', e => {
     searchHero(e.target.value.trim());
   };
 })
+
 getConnection();
