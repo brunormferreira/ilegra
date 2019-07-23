@@ -33,6 +33,27 @@ body {
 .main-heroes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-search {
+  text-align:center;
+}
+
+.main-search-input {
+  color: #ffffff;
+  margin-top: 13px;
+  width: 300px;
+  height: 36px;
+  text-align: center;
+  background: none;
+  border-radius: 11px;
+  outline: 0;
+  font-size: 14px;
+}
+
+.main-search-input::placeholder {
+  color: #ffff;
 }
 
 h3 {
