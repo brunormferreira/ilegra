@@ -84,3 +84,7 @@ a:hover {
 h3 {
   color: #ffff;
 }
+
+ul {
+  list-style: none;
+}
