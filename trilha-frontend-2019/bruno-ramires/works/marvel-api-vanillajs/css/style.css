@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+
+
+.header-heroes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.logo-heroes {
+  margin: 1.5rem auto;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+}
+
+.title-heroes {
+  color: #ffff;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.main-heroes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: #ffff;
+}

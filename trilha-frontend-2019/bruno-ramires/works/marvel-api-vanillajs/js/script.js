@@ -17,14 +17,14 @@ const getConnection = () => {
 }
 
 const drawHero = e => {
-  const image = `${e.thumbnail.path}/portrait_uncanny.${e.thumbnail.extension}`;
+  const image = `${e.thumbnail.path}/portrait_xlarge.${e.thumbnail.extension}`;
   const hero = `
-  <div>
-    <h3>${e.name}</h3>
-    <img src="${image}">
-    <p>${e.description}</p>
-  </div>
+  <ul>
+    <li><h3>${e.name}</h3>
+    <img src="${image}"></li>
+  </ul>
   `;
+  // <p>${e.description}</p>
   content.insertAdjacentHTML('beforeEnd', hero);
 };
 
