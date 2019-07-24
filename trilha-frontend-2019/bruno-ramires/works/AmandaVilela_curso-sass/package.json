@@ -1,0 +1,19 @@
+{
+  "name": "amandavilela_curso-sass",
+  "version": "1.0.0",
+  "description": "curso-sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "keywords": [
+    "sass",
+    "curso",
+    "amandavilela"
+  ],
+  "author": "Bruno Ramires",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
