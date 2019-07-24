@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* AULA 2 - SELETORES */
 nav {
   width: 100%;
   background: #000; }
@@ -14,3 +16,34 @@ nav {
     color: red; }
     nav a:hover {
       color: blue; }
+
+/* AULA 3 - VARIAVEIS */
+nav {
+  background: #962acd;
+  color: #fff;
+  width: 100%;
+  font-size: 1.2rem; }
+
+/* VARIAVEIS NUMÉRICAS */
+aside {
+  width: 300px; }
+
+/* VARIAVEIS STRINGS */
+section {
+  font-family: "Lucida Grande";
+  font-weight: bold; }
+
+/* CORES */
+body {
+  background: red;
+  color: #ffffff; }
+
+section {
+  background: rgba(0, 0, 0, 0.7); }
+
+/* VARIAVEIS - BOOLEAN E NULL */
+/* VARIAVEIS - LISTAS */
+section {
+  margin: 10px 20px 15px 20px; }
+
+/* VARIAVEIS - MAPS (semelhante ao array) */
