@@ -1,0 +1,7 @@
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin box-sizing($box) {
+  box-sizing: $box;
+}
